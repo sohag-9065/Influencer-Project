@@ -194,7 +194,7 @@ body{
 }
 .collection-more{
     position: relative;
-    left: 1025px;
+    left: 950px;
 }
 #more-des, #more-arrow{
     background-color: white;
@@ -205,4 +205,70 @@ body{
 }
 /*--------------------------
     colection-section end  
+-------------------------- */
+
+/*--------------------------
+    featured-section start  
+-------------------------- */
+.featured-section{
+    display: grid;
+    grid-template-columns: 410px repeat(1,1fr);
+    grid-column-gap: 100px;
+    margin: 75px 190px;
+}
+.featured-image img{
+    width: 410px;
+    height: 270px;
+}
+.featured-heading{
+    font-size: 48px;
+    font-weight: 700;
+}
+.featured-description{
+    font-size: 16px;
+    font-weight: 700;
+}
+.featured-join{
+    background-color: #E02C6D;
+    width: 145px;
+    padding: 10px;
+    padding-right: 0;
+}
+
+#f-join-des, #f-join-arrow{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+}
+#f-join-arrow{
+    margin-left: 10px;
+    padding: 0;
+    width: 20px;
+}
+
+/*--------------------------
+    featured-section end  
+-------------------------- */
+
+/*--------------------------
+    footer-section start  
+-------------------------- */
+.footer-section{
+    height: 250px;
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+}
+.footer-div{
+    padding: 25px;
+}
+.footer-logo .fab{
+    font-size: 25px;
+    color: white;
+    margin: 0 10px;
+}
+/*--------------------------
+    footer-section end  
 -------------------------- */
