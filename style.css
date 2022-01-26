@@ -54,7 +54,7 @@ body{
 }
 .influencer-details{
     width: 585px;
-    position: relative;
+    margin-right: 155px;
 }
 .influencer-description{
     font-size: 16px;
