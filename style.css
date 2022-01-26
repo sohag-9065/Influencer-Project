@@ -96,6 +96,19 @@ body{
     position: absolute;
     top: 20px;
     left: 25px;
-    /* animation: myfirst 2s linear 0.2s normal forwards; */
+    animation: myfirst 2s linear 0.2s normal forwards;
 }
-
+@keyframes myfirst {
+    0% {
+        width: 75%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+/*--------------------------
+    influencer-section end  
+-------------------------- */
