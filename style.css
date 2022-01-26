@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+/*-------------------------
+    header section start  
+--------------------------- */
+
+.header-section{
+    margin: 65px 120px 50px;
+}
+ .header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-description h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+
+}
+
+.header-nav-link a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 16px;
+    color: #3A3A3A;
+    font-weight: 600;
+} 
+#header-nav-link-id{
+    margin-right: 0px;
+    font-size: 26px;
+}
+
+/*------------------------
+    header section end  
+------------------------- */
