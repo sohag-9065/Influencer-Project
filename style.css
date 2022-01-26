@@ -52,8 +52,8 @@ body{
     font-weight: 700;
     margin-bottom: 0;
 }
-.influencer-half-width{
-    width: 35%;
+.influencer-details{
+    width: 585px;
     position: relative;
 }
 .influencer-description{
@@ -86,6 +86,9 @@ body{
     padding: 10px 22px 10px 0;
     margin-right: 10px;
 } 
+.influencer-images{
+    position: relative;
+}
 .influencer-circle-image{
     width: 475px;
     height: 475px;
