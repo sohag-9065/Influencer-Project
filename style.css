@@ -22,6 +22,10 @@ body{
     color: #3A3A3A;
 
 }
+#menu-icon, #header-shop-card{
+    display: none;
+}
+
 
 .header-nav-link a{
     text-decoration: none;
@@ -103,17 +107,21 @@ body{
 }
 @keyframes myfirst {
     0% {
-        width: 75%;
+        width: 100%;
     }
     50% {
         width: 50%;
     }
     100% {
-        width: 75%;
+        width: 100%;
     }
 }
 /*--------------------------
     influencer-section end  
+-------------------------- */
+
+/*--------------------------
+    logo-section start  
 -------------------------- */
 
 .logo-section{
@@ -136,7 +144,7 @@ body{
 
 
 /*--------------------------
-    colection-section end  
+    colection-section start  
 -------------------------- */
 .collection-section{
     margin: 134px 220px 0;
@@ -213,6 +221,7 @@ body{
 .featured-section{
     display: grid;
     grid-template-columns: 410px repeat(1,1fr);
+    align-items: center;
     grid-column-gap: 100px;
     margin: 75px 165px;
 }
@@ -221,8 +230,9 @@ body{
     height: 270px;
 }
 .featured-heading{
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
+    margin: 0;
 }
 .featured-description{
     font-size: 16px;
@@ -257,12 +267,13 @@ body{
 -------------------------- */
 .footer-section{
     height: 250px;
+    margin-bottom: 0;
     text-align: center;
     background-color: #0A0826;
     color: white;
 }
 .footer-div{
-    padding: 25px;
+    padding: 20px;
 }
 .footer-logo .fab{
     font-size: 25px;

@@ -1,0 +1,75 @@
+/*-------------------------
+    header section start  
+--------------------------- */
+
+.header-section{
+    margin: 65px 40px 50px;
+}
+
+/*--------------------------
+    influencer-section start  
+-------------------------- */
+.influencer-section{
+    margin: 0 45px;
+}
+.influencer-heading{
+    font-size: 46px;
+}
+.influencer-details{
+    margin-right: 55px;
+}
+.influencer-circle-image{
+    width: 375px;
+    height: 375px;
+}
+.influencer-main-camera{
+    width: 360px;
+    height: 325px;
+    left: 15px;
+}
+
+/*--------------------------
+    logo-section start  
+-------------------------- */
+
+.logo-section{
+    margin: 70px 65px;
+}
+/*--------------------------
+    colection-section end  
+-------------------------- */
+.collection-section{
+    margin: 34px 80px 0;
+}
+
+.collection-items{
+    grid-template-columns: repeat(2,1fr);
+}
+.collection-more{
+    position: relative;
+    top: 280px;
+    left: 125px;
+}
+
+/*--------------------------
+    featured-section start  
+-------------------------- */
+.featured-section{
+    grid-template-columns: repeat(1,1fr);
+    margin: 175px 135px;
+}
+.featured-image img{
+    width: 610px;
+    height: 370px;
+}
+.featured-heading{
+    font-size: 36px;
+    text-align: center;
+}
+.featured-description{
+    text-align: justify;
+}
+.featured-join{
+    margin-top: 40px;
+    margin-left: 250px;
+}
