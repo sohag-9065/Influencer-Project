@@ -112,3 +112,21 @@ body{
 /*--------------------------
     influencer-section end  
 -------------------------- */
+
+.logo-section{
+    display: flex;
+    margin: 70px 165px;
+    justify-content: space-around;
+    border-style: solid none solid none;
+    border-image: linear-gradient(90deg,rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6) , rgba(192, 204, 218, 0.1)) 1;
+}
+.logo-section > div{
+    padding: 35px 30px;
+}
+.logo-img{
+    width: 55px;
+    height: 32px;
+}
+/*--------------------------
+    logo-section end  
+-------------------------- */
